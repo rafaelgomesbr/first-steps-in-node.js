@@ -22,15 +22,9 @@ let chinesas = function (mulher) {
   return origem;
 };
 
-let salario = function (acc, atual, i, arr) {
-  let menorSalario = 0;
+let salario = function (acc, atual) {
+  
+  let total = acc.salario <= atual.salario ?  acc : atual
 
-  for (let cont = 0; cont <= arr.length; cont++) {
-    if (acc.salario <= atual.salario) {
-      menorSalario = acc;
-    } else {
-      menorSalario = atual;
-    }
-  } 
-  return menorSalario;
-};
+return total}
+ 

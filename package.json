@@ -13,5 +13,13 @@
   "dependencies": {
     "axios": "^0.19.2",
     "express": "4.17.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelgomesbr/primeiros-passos-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaelgomesbr/primeiros-passos-node/issues"
+  },
+  "homepage": "https://github.com/rafaelgomesbr/primeiros-passos-node#readme"
 }
